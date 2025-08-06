@@ -1,0 +1,65 @@
+
+.header{
+  background: rgba(51, 51, 153, 0.7);
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  font-family: 'aAnnyeongHaseyo';
+  font-size:30px;
+  color: #ffffff;
+  border-radius: 0px 0px 25px 25px;  
+  border-right: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  border-left:3px solid #ffffff;
+  margin: 0px 25vw;
+  box-shadow: 0 0 40px #00fff7, 0 0 3px #9e007e, inset 0 0 10px #ffffff;
+  text-shadow: 0 0 10px #00fff7, 0 0 3px #9e007e;
+  animation: neon 2s infinite alternate;
+  animation-timing-function: courbe de vitesse (ease-in-out)
+}
+
+@keyframes neon {
+from {
+  box-shadow: 0 0 40px #00fff7, 0 0 3px #9e007e;
+}
+to {
+  box-shadow: 0 0 60px #9e007e, 0 0 6px #00fff7;
+}
+}
+
+.body {
+  margin: 0px 0px;
+  background-color: rgb(65, 0, 131);
+}
+
+.div_1{
+  margin: 15vh 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_1_img{
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin: 0px 20px;
+}
+
+
+.div_1_1{
+  flex: 1;
+  font-size: 25px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_1_txt{text-transform: uppercase;}
+
+@font-face {
+  font-family: 'aAnnyeongHaseyo';
+  src: url('fonts/aAnnyeongHaseyo.ttf') format('truetype');
+}
